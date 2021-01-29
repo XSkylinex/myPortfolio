@@ -22,6 +22,6 @@ phases:
       - ng build --prod
 artifacts:
   files:
-    - "**/*"
+    - "**myPortfolio/*"
   discard-paths: no
   base-directory: dist/alexPortfolio
