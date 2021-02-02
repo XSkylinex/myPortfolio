@@ -6,3 +6,26 @@ a {
 a:hover {
   color: brown;
 }
+
+.iconColor {
+  color: white;
+}
+
+.iconColor:hover {
+  color: brown;
+}
+
+.iconBorder {
+  border: solid white 1px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.myIconCircle {
+  cursor: pointer;
+  border: solid white 2px;
+  border-radius: 100%;
+  padding-left: 2.5%;
+}
