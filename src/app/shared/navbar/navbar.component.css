@@ -24,8 +24,7 @@ a:hover {
 }
 
 .myIconCircle {
-  cursor: pointer;
-  border: solid white 2px;
   border-radius: 100%;
-  padding-left: 2.5%;
+  border: 2px solid white;
+  text-align: center;
 }
