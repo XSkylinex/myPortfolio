@@ -1,0 +1,9 @@
+.sideBarSize {
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .sideBarSize {
+    width: 100%;
+  }
+}
