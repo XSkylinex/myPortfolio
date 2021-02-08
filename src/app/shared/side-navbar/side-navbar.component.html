@@ -1,5 +1,14 @@
 <div class="nav-side-menu">
-  <div class="brand">Alex Moshinsky</div>
+  <div class="brand">
+    <div *ngIf="!this.isMobile; else notMobile">
+      <div class="alex">Alex</div>
+      <div class="alexMoshinsky">Moshinsky</div>
+      <div class="fullStack">Full Stack Developer</div>
+    </div>
+    <ng-template #notMobile>
+      <div>Alex Moshinsky</div>
+    </ng-template>
+  </div>
   <i
     class="fa fa-bars fa-2x toggle-btn"
     data-toggle="collapse"
