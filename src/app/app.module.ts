@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component';
+import { HomePageComponent } from './content/home-page/home-page.component';
+import { ContentComponent } from './content/content.component';
+import { AboutMeComponent } from './content/about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SideNavbarComponent
+    SideNavbarComponent,
+    HomePageComponent,
+    ContentComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
