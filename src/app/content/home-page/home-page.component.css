@@ -1,10 +1,14 @@
 .center {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 
 .center h1{
+  align-self: center;
+}
+
+.albertEinsteinText {
   align-self: center;
 }
