@@ -9,6 +9,7 @@ import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component'
 import { HomePageComponent } from './content/home-page/home-page.component';
 import { ContentComponent } from './content/content.component';
 import { AboutMeComponent } from './content/about-me/about-me.component';
+import { SkillsPageComponent } from './content/skills-page/skills-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutMeComponent } from './content/about-me/about-me.component';
     SideNavbarComponent,
     HomePageComponent,
     ContentComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SkillsPageComponent
   ],
   imports: [
     BrowserModule,

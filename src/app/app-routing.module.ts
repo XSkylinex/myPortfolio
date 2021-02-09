@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './content/about-me/about-me.component';
-import { ContentComponent } from './content/content.component';
 import { HomePageComponent } from './content/home-page/home-page.component';
+import { SkillsPageComponent } from './content/skills-page/skills-page.component';
 
 const routes: Routes = [
   {
@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutMeComponent,
+  },
+  {
+    path: 'skills',
+    component: SkillsPageComponent,
   },
 ];
 

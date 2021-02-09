@@ -310,7 +310,6 @@ body {
       width: 40px;
       text-align: center;
     }
-
   }
 }
 
@@ -325,4 +324,17 @@ body {
 
 .fullStack {
   line-height: 60px;
+}
+
+.disableBorderWhenActive {
+  outline: 0;
+}
+
+.chnageFont {
+  font-family: "Tienne-Regular", "arial", sans-serif;
+}
+
+.swordIcon {
+  background: url(../../../assets/icons/sword.svg) no-repeat top left;
+  background-size: contain;
 }

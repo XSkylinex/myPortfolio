@@ -1,5 +1,5 @@
 <div class="nav-side-menu">
-  <div class="brand">
+  <div class="brand chnageFont">
     <div *ngIf="!this.isMobile; else notMobile">
       <div class="alex">Alex</div>
       <div class="alexMoshinsky">Moshinsky</div>
@@ -16,18 +16,23 @@
   ></i>
   <div class="menu-list">
     <ul id="menu-content" class="menu-content collapse out">
-      <li>
-        <a routerLink="home"
-          ><i class="fa fa-home"></i> Home <span class=""></span
-        ></a>
+      <li routerLink="home" class="disableBorderWhenActive">
+        <a><i class="fa fa-home"></i> Home <span class=""></span></a>
       </li>
-      <li>
-        <a routerLink="about"
-          ><i class="fa fa-id-card"></i> about <span class=""></span
-        ></a>
+      <li routerLink="about" class="disableBorderWhenActive">
+        <a><i class="fa fa-id-card"></i> About <span class=""></span></a>
       </li>
-      <li data-toggle="collapse" data-target="#port" class="collapsed">
-        <a routerLink="#"
+      <li routerLink="skills" class="disableBorderWhenActive pl-2">
+        <a><i class="swordIcon"></i> Skills<span class=""></span></a>
+      </li>
+      <li
+        data-toggle="collapse"
+        data-target="#port"
+        class="collapsed disableBorderWhenActive"
+        routerLink="#"
+
+      >
+        <a
           ><i class="fab fa-uncharted"></i> Portfolio
           <span class="fas fa-arrow-down arrow arrowToEnd"></span
         ></a>
