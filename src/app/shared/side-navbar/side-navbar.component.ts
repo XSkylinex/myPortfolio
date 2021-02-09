@@ -12,7 +12,6 @@ export class SideNavbarComponent implements OnInit {
   getIsMobile(): boolean {
     const w = document.documentElement.clientWidth;
     const breakpoint = 768;
-    console.log(w);
     if (w < breakpoint) {
       return true;
     } else {
