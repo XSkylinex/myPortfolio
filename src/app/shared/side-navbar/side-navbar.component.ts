@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-side-navbar',
   templateUrl: './side-navbar.component.html',
-  styleUrls: ['./side-navbar.component.css']
+  styleUrls: ['./side-navbar.component.css'],
 })
 export class SideNavbarComponent implements OnInit {
+  swordSvg = './src/assets/icons/sword.svg';
 
-  constructor() { }
+  constructor(private sanitizer: DomSanitizer) {}
   isMobile = false;
   getIsMobile(): boolean {
     const w = document.documentElement.clientWidth;
@@ -26,4 +28,7 @@ export class SideNavbarComponent implements OnInit {
     };
   }
 
+  transform(html) {
+    return this.sanitizer.bypassSecurityTrustHtml(html);
+  }
 }

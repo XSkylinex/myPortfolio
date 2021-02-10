@@ -336,6 +336,6 @@ body {
 }
 
 .swordIcon {
-  background: url(../../../assets/icons/sword.svg) no-repeat top left;
   background-size: contain;
+  width: 100%;
 }
