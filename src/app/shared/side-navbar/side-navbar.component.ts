@@ -7,9 +7,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./side-navbar.component.css'],
 })
 export class SideNavbarComponent implements OnInit {
-  swordSvg = './src/assets/icons/sword.svg';
-
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor() {}
   isMobile = false;
   getIsMobile(): boolean {
     const w = document.documentElement.clientWidth;
@@ -26,9 +24,5 @@ export class SideNavbarComponent implements OnInit {
     window.onresize = () => {
       this.isMobile = this.getIsMobile();
     };
-  }
-
-  transform(html) {
-    return this.sanitizer.bypassSecurityTrustHtml(html);
   }
 }
