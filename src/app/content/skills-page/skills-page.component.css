@@ -6,3 +6,7 @@
   color: whitesmoke;
   background-color: red;
 }
+
+.bigFontSubHeader {
+  font-size: xx-large;
+}
