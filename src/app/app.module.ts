@@ -10,6 +10,7 @@ import { SkillsPageComponent } from './content/skills-page/skills-page.component
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component';
+import { SvgSwordComponent } from './shared/svg/svg-sword/svg-sword.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,8 @@ import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component'
     HomePageComponent,
     ContentComponent,
     AboutMeComponent,
-    SkillsPageComponent
-
+    SkillsPageComponent,
+    SvgSwordComponent
   ],
   imports: [
     BrowserModule,
