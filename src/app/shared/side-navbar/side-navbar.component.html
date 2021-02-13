@@ -23,13 +23,15 @@
         <a><i class="fa fa-id-card"></i> About</a>
       </li>
       <li routerLink="skills" class="disableBorderWhenActive">
-        <a><i style="padding-right: 2.5%; "><app-svg-sword></app-svg-sword></i>Skills</a>
+        <a
+          ><i style="padding-right: 2.5%"><app-svg-sword></app-svg-sword></i
+          >Skills</a
+        >
       </li>
       <li
         data-toggle="collapse"
         data-target="#port"
         class="collapsed disableBorderWhenActive"
-        routerLink="#"
       >
         <a
           ><i class="fab fa-uncharted"></i> Portfolio
@@ -37,13 +39,11 @@
         ></a>
       </li>
       <ul class="sub-menu collapse" id="port">
-        <li>
-          <a routerLink="#"><span class="fas fa-globe"></span> Projects </a>
+        <li routerLink="/project" class="disableBorderWhenActive">
+          <a><span class="fas fa-globe"></span> Projects </a>
         </li>
-        <li>
-          <a routerLink="#"
-            ><span class="fas fa-graduation-cap"></span> Academic Projects
-          </a>
+        <li routerLink="/acproject" class="disableBorderWhenActive">
+          <a><span class="fas fa-graduation-cap"></span> Academic Projects </a>
         </li>
       </ul>
 
@@ -56,7 +56,21 @@
       <li>
         <a routerLink="#"><i class="fa fa-scroll"></i> Publications</a>
       </li>
+      <li class="mb-2">
+        <a routerLink="#"><i class="fas fa-at"></i> Contact</a>
+      </li>
+      <a href="https://github.com/XSkylinex" target="_blank" title="GitHub"
+        ><i class="fab fa-github fa-2x sideBarMyLinkIconStyle pl-2"></i
+      ></a>
+      <a href="https://github.com/XSkylinex" target="_blank" title="LinkedIn"
+        ><i class="fab fa-linkedin fa-2x sideBarMyLinkIconStyle pl-2"></i
+      ></a>
+      <a
+        href="https://www.facebook.com/alex.moshinsky/"
+        target="_blank"
+        title="Facebook"
+        ><i class="fab fa-facebook-square fa-2x sideBarMyLinkIconStyle pl-2"></i
+      ></a>
     </ul>
-    <ul></ul>
   </div>
 </div>
