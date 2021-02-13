@@ -11,5 +11,6 @@ export class SkillsPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 
 }
