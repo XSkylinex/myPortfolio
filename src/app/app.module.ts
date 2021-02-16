@@ -14,6 +14,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { SideNavbarComponent } from './shared/side-navbar/side-navbar.component';
 import { ProjectsPageComponent } from './content/portfolio/projects-page/projects-page.component';
 import { AcademicProjectsPageComponent } from './content/portfolio/academic-projects-page/academic-projects-page.component';
+import { ResumePageComponent } from './content/resume-page/resume-page.component';
+import { EducationPageComponent } from './content/education-page/education-page.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { AcademicProjectsPageComponent } from './content/portfolio/academic-proj
     SkillsPageComponent,
     ProjectsPageComponent,
     AcademicProjectsPageComponent,
+    ResumePageComponent,
+    EducationPageComponent,
   ],
   imports: [
     BrowserModule,
