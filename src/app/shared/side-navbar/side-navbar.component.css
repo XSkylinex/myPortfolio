@@ -352,3 +352,45 @@ body {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
+
+
+
+
+.facebookColor:hover{
+  color: #3b5998;
+  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-size: 84%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+.facebookColor {
+  color: white;
+}
+
+.linkedInColor:hover{
+  color: #007bb6;
+  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-size: 84%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+.linkedInColor {
+  color: white;
+}
+
