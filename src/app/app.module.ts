@@ -16,6 +16,8 @@ import { ProjectsPageComponent } from './content/portfolio/projects-page/project
 import { AcademicProjectsPageComponent } from './content/portfolio/academic-projects-page/academic-projects-page.component';
 import { ResumePageComponent } from './content/resume-page/resume-page.component';
 import { EducationPageComponent } from './content/education-page/education-page.component';
+import { ContactPageComponent } from './content/contact-page/contact-page.component';
+import { PublicationsPageComponent } from './content/publications-page/publications-page.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { EducationPageComponent } from './content/education-page/education-page.
     AcademicProjectsPageComponent,
     ResumePageComponent,
     EducationPageComponent,
+    ContactPageComponent,
+    PublicationsPageComponent,
   ],
   imports: [
     BrowserModule,
