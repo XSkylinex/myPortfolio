@@ -1,10 +1,11 @@
 .bgColorHeader {
-  background-color: #2574af;
-  height: 9vh;
+  background-color: #dfdfdf00;
+  height: 5vh;
 }
 
 .text-js {
   opacity: 0;
+  background-color: #2574af;
 }
 
 @keyframes flash {
@@ -19,17 +20,19 @@
 .headline {
   margin: 20px;
   color: rgb(255, 255, 255);
-  font-size: 32px;
+  font-size: xx-large;
   text-align: center;
 }
 
-h1 {
+.titleName {
   letter-spacing: 1.6px;
   font-weight: 300;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
   .headline {
     margin: 0;
+    font-size: medium;
   }
 }
