@@ -16,13 +16,31 @@
   ></i>
   <div class="menu-list">
     <ul id="menu-content" class="menu-content collapse out">
-      <li routerLink="home" class="disableBorderWhenActive">
+      <li
+        routerLink="home"
+        class="disableBorderWhenActive"
+        routerLinkActive="active"
+        data-target="#menu-content"
+        data-toggle="collapse"
+      >
         <a><i class="fa fa-home"></i> Home</a>
       </li>
-      <li routerLink="about" class="disableBorderWhenActive">
+      <li
+        routerLink="about"
+        data-toggle="collapse"
+        data-target="#menu-content"
+        routerLinkActive="active"
+        class="disableBorderWhenActive"
+      >
         <a><i class="fa fa-id-card"></i> About</a>
       </li>
-      <li routerLink="skills" class="disableBorderWhenActive">
+      <li
+        routerLink="skills"
+        class="disableBorderWhenActive"
+        routerLinkActive="active"
+        data-target="#menu-content"
+        data-toggle="collapse"
+      >
         <a
           ><i style="padding-right: 2.5%"><app-svg-sword></app-svg-sword></i
           >Skills</a
@@ -32,6 +50,8 @@
         data-toggle="collapse"
         data-target="#port"
         class="collapsed disableBorderWhenActive"
+        data-toggle="collapse"
+        data-target="#menu-content"
       >
         <a
           ><i class="fab fa-uncharted"></i> Portfolio
@@ -39,48 +59,81 @@
         ></a>
       </li>
       <ul class="sub-menu collapse" id="port">
-        <li routerLink="/project" class="disableBorderWhenActive">
+        <li
+          routerLink="/project"
+          class="disableBorderWhenActive"
+          routerLinkActive="active"
+          data-toggle="collapse"
+          data-target="#menu-content"
+        >
           <a><span class="fas fa-globe"></span> Projects </a>
         </li>
-        <li routerLink="/acproject" class="disableBorderWhenActive">
+        <li
+          routerLink="/acproject"
+          class="disableBorderWhenActive"
+          routerLinkActive="active"
+          data-toggle="collapse"
+          data-target="#menu-content"
+        >
           <a><span class="fas fa-graduation-cap"></span> Academic Projects </a>
         </li>
       </ul>
 
-      <li routerLink="/resume" class="disableBorderWhenActive">
+      <li
+        routerLink="/resume"
+        class="disableBorderWhenActive"
+        routerLinkActive="active"
+        data-toggle="collapse"
+        data-target="#menu-content"
+      >
         <a><i class="fa fa-clipboard-list"></i> Resume</a>
       </li>
-      <li routerLink="/education" class="disableBorderWhenActive">
+      <li
+        routerLink="/education"
+        class="disableBorderWhenActive"
+        routerLinkActive="active"
+        data-toggle="collapse"
+        data-target="#menu-content"
+      >
         <a><i class="fa fa-university"></i> Education </a>
       </li>
-      <li routerLink="/pub" class="disableBorderWhenActive">
+      <li
+        routerLink="/pub"
+        class="disableBorderWhenActive"
+        data-toggle="collapse"
+        data-target="#menu-content"
+      >
         <a><i class="fa fa-scroll"></i> Publications</a>
       </li>
-      <li class="mb-2" routerLink="/contact" class="disableBorderWhenActive">
+      <li
+        routerLink="/contact"
+        class="disableBorderWhenActive"
+        routerLinkActive="active"
+        data-toggle="collapse"
+        data-target="#menu-content"
+      >
         <a><i class="fas fa-at"></i> Contact</a>
       </li>
-      <a
-        href="https://github.com/XSkylinex"
-        target="_blank"
-        title="GitHub"
-        class="pl-2"
-        ><i class="fab fa-github fa-3x sideBarMyLinkIconStyle"></i
-      ></a>
-      <a
-        href="https://github.com/XSkylinex"
-        target="_blank"
-        title="LinkedIn"
-        class="pl-2"
-      >
-        <i class="fab fa-linkedin fa-3x linkedInColor"></i>
-      </a>
-      <a
-        href="https://www.facebook.com/alex.moshinsky/"
-        class="pl-2"
-        target="_blank"
-        title="Facebook"
-        ><i class="fab fa-facebook-square fa-3x facebookColor"></i
-      ></a>
+      <div class="mt-2 text-center">
+        <a href="https://github.com/XSkylinex" target="_blank" title="GitHub"
+          ><i class="fab fa-github fa-2x sideBarMyLinkIconStyle"></i
+        ></a>
+        <a
+          href="https://github.com/XSkylinex"
+          target="_blank"
+          title="LinkedIn"
+          class="pl-3"
+        >
+          <i class="fab fa-linkedin fa-2x linkedInColor"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/alex.moshinsky/"
+          class="pl-3"
+          target="_blank"
+          title="Facebook"
+          ><i class="fab fa-facebook-square fa-2x facebookColor"></i
+        ></a>
+      </div>
     </ul>
   </div>
 </div>

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-side-navbar',
@@ -18,7 +18,6 @@ export class SideNavbarComponent implements OnInit {
       return false;
     }
   }
-
   ngOnInit(): void {
     this.isMobile = this.getIsMobile();
     window.onresize = () => {

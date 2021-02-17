@@ -46,4 +46,6 @@ import { PublicationsPageComponent } from './content/publications-page/publicati
   providers: [],
   bootstrap: [AppComponent],
 })
+
+
 export class AppModule {}
