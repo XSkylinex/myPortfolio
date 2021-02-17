@@ -19,6 +19,7 @@ export class SideNavbarComponent implements OnInit {
     }
   }
   ngOnInit(): void {
+
     this.isMobile = this.getIsMobile();
     window.onresize = () => {
       this.isMobile = this.getIsMobile();
