@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './content/about-me/about-me.component';
 import { ContactPageComponent } from './content/contact-page/contact-page.component';
-import { HomePageComponent } from './content/home-page/home-page.component';
 import { AcademicProjectsPageComponent } from './content/portfolio/academic-projects-page/academic-projects-page.component';
 import { ProjectsPageComponent } from './content/portfolio/projects-page/projects-page.component';
 import { PublicationsPageComponent } from './content/publications-page/publications-page.component';
@@ -12,11 +11,7 @@ import { SkillsPageComponent } from './content/skills-page/skills-page.component
 const routes: Routes = [
   {
     path: '',
-    component: HomePageComponent,
-  },
-  {
-    path: 'home',
-    component: HomePageComponent,
+    component: AboutMeComponent,
   },
   {
     path: 'about',
