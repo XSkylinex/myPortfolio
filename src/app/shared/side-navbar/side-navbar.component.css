@@ -394,3 +394,7 @@ body {
   color: white;
 }
 
+
+.close {
+  display: block;
+}

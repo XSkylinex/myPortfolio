@@ -22,6 +22,10 @@ import { SvgS3Component } from 'src/app/shared/svg/svg-s3/svg-s3.component';
 import { SvgSwordComponent } from 'src/app/shared/svg/svg-sword/svg-sword.component';
 import { SvgTypeScriptComponent } from 'src/app/shared/svg/svg-type-script/svg-type-script.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { SvgVideogameComponent } from 'src/app/shared/svg/svg-videogame/svg-videogame.component';
+import { SvgFriendsComponent } from 'src/app/shared/svg/svg-friends/svg-friends.component';
+import { SvgWorldComponent } from 'src/app/shared/svg/svg-world/svg-world.component';
+import { SvgGymComponent } from 'src/app/shared/svg/svg-gym/svg-gym.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     SvgRoute53Component,
     SvgS3Component,
     SvgCodepiplineComponent,
+    SvgVideogameComponent,
+    SvgFriendsComponent,
+    SvgWorldComponent,
+    SvgGymComponent,
   ],
   imports: [CommonModule, ReactiveFormsModule, FormsModule],
   exports: [
@@ -70,6 +78,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     SvgRoute53Component,
     SvgS3Component,
     SvgCodepiplineComponent,
+    SvgVideogameComponent,
+    SvgFriendsComponent,
+    SvgWorldComponent,
+    SvgGymComponent,
   ],
 })
 export class SvgModule {}
