@@ -26,6 +26,7 @@ import { SvgVideogameComponent } from 'src/app/shared/svg/svg-videogame/svg-vide
 import { SvgFriendsComponent } from 'src/app/shared/svg/svg-friends/svg-friends.component';
 import { SvgWorldComponent } from 'src/app/shared/svg/svg-world/svg-world.component';
 import { SvgGymComponent } from 'src/app/shared/svg/svg-gym/svg-gym.component';
+import { SvgSassScssComponent } from 'src/app/shared/svg/svg-sass-scss/svg-sass-scss.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { SvgGymComponent } from 'src/app/shared/svg/svg-gym/svg-gym.component';
     SvgFriendsComponent,
     SvgWorldComponent,
     SvgGymComponent,
+    SvgSassScssComponent,
   ],
   imports: [CommonModule, ReactiveFormsModule, FormsModule],
   exports: [
@@ -82,6 +84,7 @@ import { SvgGymComponent } from 'src/app/shared/svg/svg-gym/svg-gym.component';
     SvgFriendsComponent,
     SvgWorldComponent,
     SvgGymComponent,
+    SvgSassScssComponent,
   ],
 })
 export class SvgModule {}
